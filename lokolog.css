@@ -1,0 +1,58 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background: #f5f5f5;
+    }
+    h1 { 
+        text-align: center;
+    }
+    .btn {
+        padding: 8px 12px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 5px;
+    }
+    .createBtn { background: #27ae60; color: white; }
+    .editBtn { background: #2980b9; color: white; }
+    .deleteBtn { background: #e74c3c; color: white; }
+    .exportBtn { background: #8e44ad; color: white; }
+
+    .entry, #createArea {
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        margin-bottom: 15px;
+    }
+
+    .createBtn, .exportBtn{
+        margin-bottom: 15px;
+    }
+
+    .timestamp {
+        font-size: 0.9em;
+        font-weight: bold;
+        color: #555;
+        margin-bottom: 8px;
+    }
+
+.createBtn:hover {
+    background: #1e8e4d; /* darker green */
+}
+
+.editBtn:hover {
+    background: #1f6a94; /* darker blue */
+}
+
+.deleteBtn:hover {
+    background: #c0392b; /* darker red */
+}
+
+.exportBtn:hover {
+    background: #732d97; /* darker purple */
+}
+
+#botones {
+    text-align: center;
+}
